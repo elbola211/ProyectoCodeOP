@@ -5,7 +5,7 @@
       <!-- Contenido -->
       <div class="container mx-auto p-4">
         <h1 class="text-3xl font-semibold mb-4">Destinos</h1>
-        <!-- Lista de destinos -->
+        <!-- Lista de destinos, aquí tiramos de json -->
         <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">
           <li v-for="destination in destinations" :key="destination.id">
             <div class="bg-white p-4 rounded shadow-md">
