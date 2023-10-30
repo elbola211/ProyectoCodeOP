@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Bali, Indonesia",
+    "country": "Indonesia",
+    "description": "Bali es un popular destino para nómadas digitales. Ofrece hermosas playas, una rica cultura y una comunidad digital vibrante."
+  },
+  {
+    "id": 2,
+    "name": "Chiang Mai, Tailandia",
+    "country": "Tailandia",
+    "description": "Chiang Mai es conocida por su bajo costo de vida y sus paisajes impresionantes. Es un lugar ideal para trabajar y explorar."
+  },
+  {
+    "id": 3,
+    "name": "Medellín, Colombia",
+    "country": "Colombia",
+    "description": "Medellín se ha transformado en una ciudad vibrante y atractiva para los nómadas digitales. Ofrece una agradable calidad de vida."
+  },
+  {
+    "id": 4,
+    "name": "Lisboa, Portugal",
+    "country": "Portugal",
+    "description": "Lisboa combina la historia y la tecnología. Es una ciudad acogedora para quienes trabajan en línea."
+  },
+  {
+    "id": 5,
+    "name": "Ubud, Indonesia",
+    "country": "Indonesia",
+    "description": "Ubud, en Bali, es un refugio creativo para nómadas digitales. Ofrece una comunidad artística y espiritual única."
+  },
+  {
+    "id": 6,
+    "name": "Tbilisi, Georgia",
+    "country": "Georgia",
+    "description": "Tbilisi es una joya oculta para los nómadas digitales. Es asequible y ofrece una rica historia y cultura."
+  },
+  {
+    "id": 7,
+    "name": "Praga, República Checa",
+    "country": "República Checa",
+    "description": "Praga combina la belleza histórica con la infraestructura digital. Es un lugar emocionante para trabajar y vivir."
+  },
+  {
+    "id": 8,
+    "name": "Ho Chi Minh, Vietnam",
+    "country": "Vietnam",
+    "description": "Ho Chi Minh es una ciudad en rápido crecimiento con una comunidad digital floreciente."
+  },
+  {
+    "id": 9,
+    "name": "Playa del Carmen, México",
+    "country": "México",
+    "description": "Playa del Carmen ofrece un ambiente relajado y una comunidad internacional de nómadas digitales."
+  },
+  {
+    "id": 10,
+    "name": "Tenerife, España",
+    "country": "España",
+    "description": "Tenerife es una isla canaria con un clima agradable y una comunidad creciente de nómadas digitales."
+  }
+]
