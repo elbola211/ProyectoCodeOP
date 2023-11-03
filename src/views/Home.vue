@@ -1,24 +1,14 @@
 <template>
-    <div>
-      <a href="https://vitejs.dev" target="_blank">
-        <img src="/vite.svg" class="logo" alt="Vite logo" />
-      </a>
-      <a href="https://vuejs.org/" target="_blank">
-        <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-      </a>
+    <div class="home">
+      <h1> Página principal HOME</h1>
     </div>
-    <h1> Página principal Home</h1>
-  </template>
-
-
+</template>
 
 <script>
 
+  export default {
+    name: 'Home',
+  }
 </script>
 
-
-
-<style>
-
-</style>
 
