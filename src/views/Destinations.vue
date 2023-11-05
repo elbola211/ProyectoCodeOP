@@ -1,10 +1,10 @@
 <template>
     <div class="destinations">
+      <h1>hola</h1>
       <!-- Encabezado -->
-      <Navbar />
-      <!-- Contenido -->
-      <div class="container mx-auto p-4 w-screen content-center">
-        <!-- Lista de destinos, aquí tiramos de json -->
+       <Navbar />
+      <!-- Contenido 
+      <div class="container mx-auto p-4 w-screen content-center"> 
         <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">
           <li v-for="destination in destinations" :key="destination.id">
             <div class="p-4 rounded shadow-md">
@@ -16,7 +16,7 @@
             </div>
           </li>
         </ul>
-      </div>
+      </div>-->
       <Footer />
     </div>
   </template>

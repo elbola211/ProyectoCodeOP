@@ -18,7 +18,7 @@ export default new Router({
     { path: '/', name: 'home', component: Home }, 
   { path: '/contacto', name: 'contacto', component: Contacto },
     // { path: '/infoutil', name: 'infoUtil', component: InfoUtil },
-  // { path: '/destinations', name: 'destinations', component: Destinations }, 
+   { path: '/destinations', name: 'destinations', component: Destinations }, 
   ]
 })
 
