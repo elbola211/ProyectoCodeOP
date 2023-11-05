@@ -9,7 +9,7 @@
   <div class="container mx-auto mt-2">
     <div class="flex justify-between">
       <a rel="noopener noreferrer" href="#" >
-    <img alt="Imagen1" public="./Brainstorming Creación página web Verde (1).jpg"/>
+    <img alt="Imagen1" src="../assets/Brainstorming Creación página web Verde (1).jpg"/>
    </a>
     </div>
   </div>
