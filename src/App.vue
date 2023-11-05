@@ -1,19 +1,17 @@
-<template>
-
+<!-- <template>
 </template>
 
 <script>
-
-
 </script>
 
-<style></style>
+<style>
+</style> -->
 
-<!-- <template>
+<template>
 
   <Navbar />
-
-  <Contacto />
+  
+  <Opiniones />
 
   <Footer />
 
@@ -24,7 +22,8 @@
   //paso 1: import
 import Navbar from "./components/Navbar.vue";
 import Footer from "./components/Footer.vue";
-import Contacto from "./views/Contacto.vue";
+import Contacto from "./views/Contact.vue";
+import Opiniones from "./views/Opinions.vue";
 
 export default {
   //paso 2: declarar components que se van a usar aqui
@@ -32,6 +31,7 @@ export default {
     Navbar,
     Footer,
     Contacto,
+    Opiniones,
   },
   data() {
     return {
@@ -42,8 +42,8 @@ export default {
  
   },
 };
-
 </script>
 
-<style></style> -->
+<style>
+</style>
 
