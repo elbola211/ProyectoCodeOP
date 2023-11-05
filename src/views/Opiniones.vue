@@ -47,5 +47,5 @@ export default {
 </script>
 
 <style>
-
+@import "../../src/style.css";
 </style>
