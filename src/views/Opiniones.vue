@@ -1,6 +1,6 @@
 <template>
-    <div class="destinations">
-      <h1> Página DESTINOS</h1>
+    <div class="opinions">
+      <h1> Página OPINIONES</h1>
     </div>
 </template>
 
