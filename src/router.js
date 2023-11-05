@@ -16,9 +16,9 @@ export default new Router({
   base: process.env.BASE_URL,
   routes: [
     { path: '/', name: 'home', component: Home }, 
-  { path: '/contacto', name: 'contacto', component: Contacto },
-    // { path: '/infoutil', name: 'infoUtil', component: InfoUtil },
-   { path: '/destinations', name: 'destinations', component: Destinations }, 
+    { path: '/contacto', name: 'contacto', component: Contacto },
+    { path: '/infoutil', name: 'infoUtil', component: InfoUtil },
+    { path: '/destinations', name: 'destinations', component: Destinations }, 
   ]
 })
 

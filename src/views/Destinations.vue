@@ -1,6 +1,5 @@
 <template>
     <div class="destinations">
-      <h1>hola</h1>
       <!-- Encabezado -->
        <Navbar />
       <!-- Contenido 
