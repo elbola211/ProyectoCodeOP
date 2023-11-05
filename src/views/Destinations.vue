@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="destinations">
       <!-- Encabezado -->
       <Navbar />
       <!-- Contenido -->
@@ -23,10 +23,10 @@
   
   <script>
     //paso 1: import
-  import Navbar from "./components/Navbar.vue";
-  import Footer from "./components/Footer.vue";
-  import Contacto from "./views/Contacto.vue";
-  import destinationsData from "./data/destinations.json";
+  import Navbar from "../components/Navbar.vue"
+  import Footer from "../components/Footer.vue";
+  import Contacto from "../views/Contacto.vue";
+  import destinationsData from "../data/destinations.json";
   
   
   export default {
