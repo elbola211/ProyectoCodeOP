@@ -3,7 +3,7 @@
       <h1>hola</h1>
       <!-- Encabezado -->
        <Navbar />
-      <!-- Contenido 
+      <!-- Contenido -->
       <div class="container mx-auto p-4 w-screen content-center"> 
         <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">
           <li v-for="destination in destinations" :key="destination.id">
@@ -16,7 +16,7 @@
             </div>
           </li>
         </ul>
-      </div>-->
+      </div>
       <Footer />
     </div>
   </template>
@@ -26,7 +26,7 @@
   import Navbar from "../components/Navbar.vue"
   import Footer from "../components/Footer.vue";
   import Contacto from "../views/Contacto.vue";
-  import destinationsData from "../data/destinations.json";
+  import destinationsData from "../../server/destinations.json";
   
   
   export default {
