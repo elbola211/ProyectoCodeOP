@@ -1,0 +1,92 @@
+ [
+      {
+        "id": 0,
+        "foto": "/Personas/0_Juan_Carlos.jpg",
+        "nombre": "Juan Carlos",
+        "ciudad": "Bangkok",
+        "opinionComida": "Me encanta la comida tailandesa, es deliciosa y asequible.",
+        "costeVida": "El costo de vida en Tailandia es bastante bajo, lo que hace que sea ideal para nómadas digitales.",
+        "opinionGeneral": "Mi experiencia como nómada digital en Tailandia ha sido increíble. La combinación de la comida, el bajo costo de vida y la belleza del país es inigualable."
+      },
+      {
+        "id": 1,
+        "foto": "/Personas/1_Marcos.jpg",        
+        "nombre": "Marcos",
+        "ciudad": "Ciudad de Mexico",
+        "opinionComida": "La comida mexicana es deliciosa, especialmente los tacos y la salsa picante.",
+        "costeVida": "El costo de vida en México es razonable, lo que me permite vivir cómodamente mientras trabajo en línea.",
+        "opinionGeneral": "Me siento como en casa en México. La comida, la cultura y la amabilidad de la gente hacen que sea un lugar perfecto para ser nómada digital."
+      },
+      {
+        "id": 2,
+        "foto": "/Personas/2_Ursula.jpg",
+        "nombre": "Úrsula",
+        "ciudad": "Valencia",
+        "opinionComida": "La comida española es increíble, me encantan las tapas y el vino.",
+        "costeVida": "El costo de vida en las ciudades españolas varía, pero en general es asequible para nómadas digitales.",
+        "opinionGeneral": "España tiene tanto que ofrecer, desde la comida hasta la historia y la arquitectura. Como nómada digital, me siento afortunado de vivir aquí."
+      },
+      {
+        "id": 3,
+        "foto": "/Personas/3_Maria.jpg",
+        "nombre": "María",
+        "ciudad": "Canggu",
+        "opinionComida": "La comida en Bali es fresca y saludable, con muchas opciones vegetarianas y veganas.",
+        "costeVida": "El costo de vida en Bali es bajo, lo que me permite vivir de manera sencilla y disfrutar de la naturaleza.",
+        "opinionGeneral": "Bali es un paraíso para los nómadas digitales. La comida, la belleza natural y la espiritualidad son únicas."
+      },
+      {
+        "id": 4,
+        "foto": "/Personas/4_Liliana.jpg",
+        "nombre": "Liliana",
+        "ciudad": "Oporto",
+        "opinionComida": "La comida portuguesa es deliciosa, especialmente los pasteles de nata y el bacalao.",
+        "costeVida": "El costo de vida en Portugal es razonable, lo que lo hace atractivo para nómadas digitales.",
+        "opinionGeneral": "Portugal tiene un ambiente relajado y una cultura encantadora. Como nómada digital, me siento bienvenido aquí."
+      },
+      {
+        "id": 5,
+        "foto": "/Personas/5_Jorge.jpg",
+        "nombre": "Jorge",
+        "ciudad": "Cartagena de Indias",
+        "opinionComida": "La comida colombiana es diversa y sabrosa, me encanta la arepa y el café.",
+        "costeVida": "El costo de vida en Colombia es asequible, lo que me permite explorar el país mientras trabajo en línea.",
+        "opinionGeneral": "Colombia tiene una cultura vibrante y paisajes impresionantes. Como nómada digital, me siento emocionado de estar aquí."
+      },
+      {
+        "id": 6,
+        "foto": "/Personas/6_Juan.jpg",
+        "nombre": "Juan",
+        "ciudad": "Tokio",
+        "opinionComida": "La comida japonesa es exquisita, el sushi y el ramen son mis favoritos.",
+        "costeVida": "El costo de vida en Japón es más alto, pero la calidad de vida y la cultura son incomparables.",
+        "opinionGeneral": "Japón ofrece una experiencia única como nómada digital. La comida y la tecnología son fascinantes."
+      },
+      {
+        "id": 7,
+        "foto": "/Personas/7_Laura.jpg",
+        "nombre": "Laura",
+        "ciudad": "Hanói",
+        "opinionComida": "La comida vietnamita es sabrosa y económica, los pho y los banh mi son deliciosos.",
+        "costeVida": "El costo de vida en Vietnam es bajo, lo que hace que sea un destino atractivo para nómadas digitales.",
+        "opinionGeneral": "Vietnam tiene una rica historia y una belleza natural asombrosa. Como nómada digital, me siento inspirado por este país."
+      },
+      {
+        "id": 8,
+        "foto": "/Personas/8_Daniel.jpg",
+        "nombre": "Daniel",
+        "ciudad": "Milan",
+        "opinionComida": "La comida italiana es un placer para los sentidos, las pizzas y la pasta son inigualables.",
+        "costeVida": "El costo de vida en Italia varía, pero en general es un poco más alto, sin embargo, la cultura y la historia hacen que valga la pena.",
+        "opinionGeneral": "Italia es un sueño para los amantes de la comida y la historia. Como nómada digital, estoy fascinado por la herencia italiana."
+      },
+      {
+        "id": 9,
+        "foto": "/Personas/9_Miriam.jpg",
+        "nombre": "Miriam",
+        "ciudad": "Santorini",
+        "opinionComida": "La comida griega es deliciosa, me encanta el souvlaki y el tzatziki.",
+        "costeVida": "El costo de vida en Grecia es razonable, lo que me permite disfrutar de la belleza mediterránea mientras trabajo en línea.",
+        "opinionGeneral": "Grecia tiene una belleza impresionante y una rica cultura. Como nómada digital, me siento afortunado de estar aquí."
+      }
+  ]
