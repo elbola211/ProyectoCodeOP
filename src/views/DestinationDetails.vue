@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="destination-details">
     <!-- Encabezado -->
     <Navbar />
     <!-- Contenido -->
@@ -18,9 +18,10 @@
 </template>
 
 <script>
+import destinationsData from "../../server/destinations.json";
 import Navbar from "../components/Navbar.vue";
 import Footer from "../components/Footer.vue";
-import destinationsData from "../data/destinations.json";
+import Contacto from "../views/Contacto.vue";
 
 export default {
   name: 'DestinationDetails',
@@ -31,19 +32,19 @@ export default {
   props: ['id'],
   data() {
     return {
-      destination: null, // Aquí almacenaremos los detalles del destino
+      destination: null,
     };
   },
   mounted() {
-    // Llama a un método para cargar los detalles del destino
     this.loadDestinationDetails(this.id);
   },
   methods: {
     loadDestinationDetails(id) {
-      // Filtra el destino por ID
+    console.log('ID recibido:', id); // Verificar el ID
       this.destination = destinationsData.find((destino) => destino.id === parseInt(id));
-    },
+        console.log('Datos del destino:', this.destination);
   },
+},
 };
 </script>
 <style></style>

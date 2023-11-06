@@ -6,8 +6,7 @@ import Home from './views/Home.vue'
 import Contacto from './views/Contacto.vue'
 import InfoUtil from './views/InfoUtil.vue'
 import Destinations from './views/Destinations.vue'
-
-
+import DestinationDetails from './views/DestinationDetails.vue'; 
 createApp.use(Router)
 
 // Define las rutas
@@ -19,6 +18,11 @@ export default new Router({
   { path: '/contacto', name: 'contacto', component: Contacto },
     // { path: '/infoutil', name: 'infoUtil', component: InfoUtil },
    { path: '/destinations', name: 'destinations', component: Destinations }, 
+   {
+    path: '/destination-details/:id', 
+    name: 'destination-details',
+    component: DestinationDetails, 
+  },
   ]
 })
 
