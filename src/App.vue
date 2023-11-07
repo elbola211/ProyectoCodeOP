@@ -1,4 +1,3 @@
-
 <template>
  <div id='app'>
     <div id='nav'>
@@ -11,5 +10,6 @@
     </div>
     <router-view/>
   </div>
+  <h1 class="text-blue-800 text-6xl">Hola</h1>
 </template>
 
