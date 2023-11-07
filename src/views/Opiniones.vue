@@ -5,11 +5,14 @@
         <!-- <RouterLink
         :to="{
               name: 'OpinionDetail',
-              params: { id: getId() }}">          
-        </RouterLink> -->
+              params: { id: getId(item.id) }}">          
+        </RouterLink>
 
-        <Opinion_Card :item="item"/>
-        <h1>Hola</h1>
+        <Opinion_Card :item="item"/> -->
+      <RouterLink :to="{ name: 'OpinionesDetail', params: { id: item.id } }">
+        <Opinion_Card :item="item" @click="redirectToOpinionDetail(item.id)" />
+      </RouterLink>
+        
       </div>
 
   </div>
@@ -47,6 +50,9 @@ export default {
         this.error = true;
       }
     },
+    redirectToOpinionDetail(id) {
+    this.$router.push({ name: 'OpinionesDetail', params: { id } });
+  }
   },
 }
 
