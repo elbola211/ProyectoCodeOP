@@ -1,49 +1,15 @@
 <template>
-
+ <div id='app'>
+    <div id='nav'>
+      <Home/>
+      <router-link to="/"> Home </router-link>
+      <router-link to="/contacto"> Contacto </router-link>
+      <router-link to="/destinos"> Destinations </router-link>
+      <router-link to="/infoutil"> infoUtil </router-link>
+      <router-link to="/opiniones"> Opiniones </router-link>
+    </div>
+    <router-view/>
+  </div>
+  <h1 class="text-blue-800 text-6xl">Hola</h1>
 </template>
-
-<script>
-
-
-</script>
-
-<style></style>
-
-<!-- <template>
-
-  <Navbar />
-
-  <Contacto />
-
-  <Footer />
-
-
-</template>
-
-<script>
-  //paso 1: import
-import Navbar from "./components/Navbar.vue";
-import Footer from "./components/Footer.vue";
-import Contacto from "./views/Contacto.vue";
-
-export default {
-  //paso 2: declarar components que se van a usar aqui
-  components: {
-    Navbar,
-    Footer,
-    Contacto,
-  },
-  data() {
-    return {
-
-    };
-  },
-  methods: {
- 
-  },
-};
-
-</script>
-
-<style></style> -->
 
