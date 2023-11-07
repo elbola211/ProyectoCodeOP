@@ -16,7 +16,7 @@ const routes = [
   { path: '/infoutil', name: 'infoUtil', component: InfoUtil },
   { path: '/destinos', name: 'destinations', component: Destinations }, 
   { path: '/opiniones', name: 'opinions', component: Opiniones },
-  { path: '/destination-details/:id', name: 'destination-details', component: DestinationDetails }
+  { path: '/details/:id', name: 'destination-details', component: DestinationDetails }
 ]
 
 const router = createRouter({

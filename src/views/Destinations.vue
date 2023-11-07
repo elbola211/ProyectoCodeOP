@@ -50,8 +50,8 @@ export default {
     Contacto,
   },
   mounted() {
-    this.data = destinationsData; // Simplemente asignamos los datos del JSON a "data"
-    this.loading = false; // Indicamos que la carga ha finalizado
+    this.data = destinationsData; // Asignar los datos del JSON a "data"
+    this.loading = false; // Indicar que la carga ha finalizado
     console.log('Data in Destinations.vue:', this.data);
   },
 };

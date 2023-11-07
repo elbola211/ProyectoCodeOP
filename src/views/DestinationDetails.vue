@@ -10,7 +10,8 @@
         <img :src="destination.image" alt="Imagen de {{ destination.name }}" />
       </template>
       <template v-else>
-        <p>Ningún destino para mostrar.</p>
+        <p>Ningún destino para mostrar.
+        </p>
       </template>
     </div>
     <Footer />
@@ -21,7 +22,7 @@
 import destinationsData from "../../server/destinations.json";
 import Navbar from "../components/Navbar.vue";
 import Footer from "../components/Footer.vue";
-import Contacto from "../views/Contacto.vue";
+import axios from 'axios';
 
 export default {
   name: 'DestinationDetails',
@@ -34,6 +35,7 @@ export default {
     return {
       destination: null,
     };
+    console.log('Datos en destinationsData:', destinationsData);
   },
   mounted() {
     this.loadDestinationDetails(this.id);
@@ -46,5 +48,6 @@ export default {
   },
 },
 };
+
 </script>
 <style></style>

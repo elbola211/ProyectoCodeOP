@@ -20,7 +20,7 @@ export default new Router({
    { path: '/destinations', name: 'destinations', component: Destinations }, 
    {
     path: '/destination-details/:id', 
-    name: 'destination-details',
+    name: 'details',
     component: DestinationDetails, 
   },
   ]
