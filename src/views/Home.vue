@@ -16,7 +16,7 @@
 
     <!-- Contenedor fin DE la Imagen -->
 
-    <div class="h-56 grid grid-cols-3 gap-4 content-center ...">
+    <div class="h-56 grid grid-cols-4 gap-4 content-center ...">
     <div>¿Qué es ser un nómada digital?</div>
     <div>Realidad del nómada digital</div>
     <div>Ventajas e Incovenientes</div>
@@ -28,8 +28,8 @@
 
 
   <div class="container max-w-6xl p-6 mx-auto space-y-6 sm:space-y-12">
-     <a rel="noopener noreferrer" href="#" class="block max-w-sm gap-3 mx-auto sm:max-w-full group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 dark:bg-gray-900">
-     <img class="object-cover w-full h-64 rounded sm:h-96 lg:col-span-7 dark:bg-gray-500" src="https://yes-tokio.es/wp-content/uploads/2020/11/tips-para-viajar-a-Tokio-980x400.jpg" alt=""/>
+     <a rel="noopener noreferrer" href="#" class="block max-w-sm gap-3 mx-auto sm:max-w-full group hover:no-underline focus:no-underline lg:grid lg:grid-cols-6">
+     <img class="object-cover w-full h-200 rounded sm:h-96  dark:bg-gray-500" src="https://yes-tokio.es/wp-content/uploads/2020/11/tips-para-viajar-a-Tokio-980x400.jpg" alt=""/>
      <div class="p-6 space-y-2 lg:col-span-5">
   
      <div class="text-sm font-semibold uppercase tracking-wide text-sky-500">TOKYO</div>
@@ -40,6 +40,11 @@
       </a>
     </div>
   </div>
+
+
+ 
+ 
+
 
 
 </template>
