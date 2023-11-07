@@ -1,13 +1,13 @@
-// export default {
-//   plugins: {
-//     tailwindcss: {},
-//     autoprefixer: {},
-//   },
-// }
+ export default {
+   plugins: {
+     tailwindcss: {},
+     autoprefixer: {},
+   },
+ }
 
-module.exports = {
-  plugins: [
-    require('tailwindcss'),
-    require('autoprefixer'),
-  ]
-}
+// module export=
+// (property) export=: {
+//     plugins: (postcss.PluginCreator<string | Config | {
+//         config: string | Config;
+//     }> | typeof autoprefixer)[];
+// }

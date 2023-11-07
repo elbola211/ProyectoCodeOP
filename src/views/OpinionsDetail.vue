@@ -9,10 +9,55 @@
             <h6>Opinion general:<br />{{ opinion.opinionGeneral }}</h6>
         </div>
     </div>
+
+    <!-- loaging & error -->
+  <iframe
+    v-if="loading"
+    src="https://giphy.com/embed/xTkcEQACH24SMPxIQg"
+    width="480"
+    height="480"
+    frameBorder="0"
+    class="giphy-embed"
+    allowFullScreen
+  ></iframe>
+  <iframe
+    v-if="error"
+    src="https://giphy.com/embed/xTkcEQACH24SMPxIQg"
+    width="480"
+    height="480"
+    frameBorder="0"
+    class="giphy-embed"
+    allowFullScreen
+  ></iframe>
     
 </template>
   
 <script>
+    export default {
+    name: "Opinion",
+    data() {
+    return {
+      opinion: "",
+      loading: false,
+      error: false,
+    };
+  },
+
+  methods: {
+    async getInfo() {
+        this.loading = true;
+      try {
+        const response = await fetch("../Server/BaseDatosOpiniones.json");        
+        const data = await response.json();
+        this.film = data;
+        this.loading = false;
+      } catch {
+        this.loading = false;
+        this.error = true;
+      }
+    },
+},
+}
 
 </script>
   

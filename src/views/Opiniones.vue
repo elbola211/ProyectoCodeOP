@@ -1,10 +1,15 @@
-<template>
+<template>  
   <div class="opinions"> 
        
       <div v-for="item in data" :key="item.id">
+        <!-- <RouterLink
+        :to="{
+              name: 'OpinionDetail',
+              params: { id: getId() }}">          
+        </RouterLink> -->
 
         <Opinion_Card :item="item"/>
-      
+        <h1>Hola</h1>
       </div>
 
   </div>
@@ -13,6 +18,7 @@
 <script>
 
 import Opinion_Card from "../components/Opinion_Card.vue";
+
 
 export default {
   name: "Opiniones",
