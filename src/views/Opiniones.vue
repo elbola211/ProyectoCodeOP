@@ -1,10 +1,18 @@
-<template>
+<template>  
   <div class="opinions"> 
        
       <div v-for="item in data" :key="item.id">
+        <!-- <RouterLink
+        :to="{
+              name: 'OpinionDetail',
+              params: { id: getId(item.id) }}">          
+        </RouterLink>
 
-        <Opinion_Card :item="item"/>
-      
+        <Opinion_Card :item="item"/> -->
+      <RouterLink :to="{ name: 'OpinionesDetail', params: { id: item.id } }">
+        <Opinion_Card :item="item" @click="redirectToOpinionDetail(item.id)" />
+      </RouterLink>
+        
       </div>
 
   </div>
@@ -13,6 +21,7 @@
 <script>
 
 import Opinion_Card from "../components/Opinion_Card.vue";
+
 
 export default {
   name: "Opiniones",
@@ -41,6 +50,9 @@ export default {
         this.error = true;
       }
     },
+    redirectToOpinionDetail(id) {
+    this.$router.push({ name: 'OpinionesDetail', params: { id } });
+  }
   },
 }
 
