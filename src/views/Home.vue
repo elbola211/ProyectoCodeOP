@@ -1,14 +1,8 @@
 <template>
   <div class="home">
-    <!-- Contenedor para la NAV-->
-    <header>
-    <nav></nav>
-    </header>
     
-    <!-- Contenedor para la Imagen -->
-  <div class="my-4">
-    <img class="w-full"  alt="Imagen1" src="../assets/IMG1.png"/>
-  </div>
+    
+    
 
     <!-- Contenedor fin DE la Imagen -->
 
