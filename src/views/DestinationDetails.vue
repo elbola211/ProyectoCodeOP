@@ -41,7 +41,7 @@ export default {
         const data = await response.json();
         this.loading = false;
         this.destination = data[this.$route.params.id];
-        this.loadWeatherData(this.destination.name); // Cargar datos del tiempo al obtener los detalles del destino
+        this.loadWeatherData(this.destination.name); 
       } catch (error) {
         console.error('Error:', error); 
         this.loading = false;
@@ -53,7 +53,7 @@ export default {
     },
     async loadWeatherData(city) {
       try {
-        const apiKey = '0fc1f97fc35ae5c2fbfb17b51b0786ef'; // Reemplaza con tu clave de API de OpenWeatherMap
+        const apiKey = '0fc1f97fc35ae5c2fbfb17b51b0786ef';
         const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`);
         this.weather = response.data;
       } catch (error) {
