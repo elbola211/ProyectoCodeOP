@@ -6,7 +6,9 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "build:css": "postcss styles.css -o public/styles.css"
+    "build:css": "postcss styles.css -o public/styles.css"  
+ 
+
   },
   "dependencies": {
     "vue": "^3.3.4",
