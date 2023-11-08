@@ -10,6 +10,5 @@
     </div>
     <router-view/>
   </div>
-  <h1 class="text-blue-800 text-6xl">Hola</h1>
 </template>
 

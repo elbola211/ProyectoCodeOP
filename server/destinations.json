@@ -1,44 +1,44 @@
 [
   {
-    "id": 1,
+    "id": 0,
     "name": "Tokyo",
     "country": "Japón",
     "description": "Tokyo es una metrópolis vibrante y tecnológicamente avanzada con una rica cultura y gastronomía.",
-    "image": "ciudades/tokyo.jpg"
+    "image": "../ciudades/tokyo.jpg"
   },
   {
-    "id": 2,
+    "id": 1,
     "name": "Barcelona",
     "country": "España",
     "description": "Barcelona es una ciudad costera con una arquitectura impresionante y una vida nocturna animada.",
-    "image": "ciudades/barcelona.jpg"
+    "image": "../ciudades/barcelona.jpg"
   },
   {
-    "id": 3,
+    "id": 2,
     "name": "Santa Cruz de Tenerife",
     "country": "España",
     "description": "Santa Cruz de Tenerife es la capital de las Islas Canarias, conocida por su clima agradable y paisajes impresionantes.",
-    "image": "ciudades/santacruz.jpg"
+    "image": "../ciudades/santacruz.jpg"
   },
   {
-    "id": 4,
+    "id": 3,
     "name": "Ciudad de México",
     "country": "México",
     "description": "Ciudad de México es una megalópolis llena de historia, cultura y deliciosa comida mexicana.",
-    "image": "ciudades/mexico.jpg"
+    "image": "../ciudades/mexico.jpg"
   },
   {
-    "id": 5,
+    "id": 4,
     "name": "Marrakech",
     "country": "Marruecos",
     "description": "Marrakech es una ciudad mágica llena de mercados, palacios y una vibrante escena cultural.",
-    "image": "ciudades/marrakech.jpg"
+    "image": "../ciudades/marrakech.jpg"
   },
   {
-    "id": 6,
+    "id": 5,
     "name": "Zagreb",
     "country": "Croacia",
     "description": "Zagreb, la capital de Croacia, es una ciudad encantadora con una rica historia y ambiente relajado.",
-    "image": "ciudades/zagreb.jpg"
+    "image": "../ciudades/zagreb.jpg"
   }
 ]
