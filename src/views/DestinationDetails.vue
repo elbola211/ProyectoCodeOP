@@ -1,12 +1,16 @@
 <template>
-  <div class="px-4 py-4" v-if="destination">
-    <img :src="destination.image" alt="Imagen de {{ destination.name }}" class="w-1/2 mb-2" />   
+  <div class="px-4 py-4 w-3/4 align-center" v-if="destination">
+  <div class="py-10">
+    <p class="text-gray-600 text-xl">{{ destination.name }}</p>
+    <img :src="destination.image" alt="Imagen de {{ destination.name }}" class="mb-2 py-4" />  
+    <p class="text-gray-600 text-md">{{ destination.description }}</p>
+  </div>
     <div v-if="weather">
-      <h3>Weather in {{ destination.name }}</h3>
-      <p>Temperature: {{ kelvinToCelsius(weather.main.temp) }}°C</p>
-      <p>Description: {{ weather.weather[0].description }}</p>
-      <p>Humidity: {{ weather.main.humidity }}%</p>
-      <p>Wind: {{ weather.wind.speed }} m/s</p>
+      <h3>Tiempo en {{ destination.name }}</h3>
+      <p>Temperatura: {{ kelvinToCelsius(weather.main.temp) }}°C</p>
+      <p>Descripción: {{ weather.weather[0].description }}</p>
+      <p>Humedad: {{ weather.main.humidity }}%</p>
+      <p>Viento: {{ weather.wind.speed }} m/s</p>
     </div>
   </div>
 
@@ -41,7 +45,7 @@ export default {
         const data = await response.json();
         this.loading = false;
         this.destination = data[this.$route.params.id];
-        this.loadWeatherData(this.destination.name); 
+        this.loadWeatherData(this.destination.name);
       } catch (error) {
         console.error('Error:', error); 
         this.loading = false;
@@ -53,7 +57,7 @@ export default {
     },
     async loadWeatherData(city) {
       try {
-        const apiKey = '0fc1f97fc35ae5c2fbfb17b51b0786ef';
+        const apiKey = 'api_key'; 
         const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`);
         this.weather = response.data;
       } catch (error) {
