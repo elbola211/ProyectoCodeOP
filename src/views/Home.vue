@@ -25,9 +25,9 @@
       <div class="mx-6 row-span-3 col-span-2 ...">
       <div class="text-2xl font-semibold uppercase tracking-wide text-sky-500">TOKYO</div>
      
-       <p class="mt-3 text-lsate-700">No hay duda de que Tokyo es una de las ciudades más fascinantes del Mundo, y una de las que más llama la atención por su mezcla de culturas asiáticas y occidentales.</p>
-       <p class="mt-3 text-lsate-700">Tokio es la capital de Japón y el mejor lugar desde donde comenzar a explorar el país. Prepárese para el ajetreo y el bullicio: Tokio es una de las ciudades más pobladas del mundo, con más de 13 millones de personas viviendo solo en la ciudad y más de 37 millones en el área metropolitana de Tokio. Esta emocionante ciudad es tan ecléctica como el mismo Japón y verá edificios conmovedores que albergan gigantes tecnológicos del país junto a edificios tradicionales y antiguas calles estrechas.</p>
-       <p class="mt-3 text-lsate-700">Si eres amante de la tecnología, de seguro que Japón será una de las ciudades que te gustaría conocer, y es que, si alguna ciudad del planeta se parece a las representaciones ficticias del futuro del siglo pasado, esa es Tokio.</p>
+       <p class="mt-3 text-lsate-700 text-justify">No hay duda de que Tokyo es una de las ciudades más fascinantes del Mundo, y una de las que más llama la atención por su mezcla de culturas asiáticas y occidentales.</p>
+       <p class="mt-3 text-lsate-700 text-justify">Tokio es la capital de Japón y el mejor lugar desde donde comenzar a explorar el país. Prepárese para el ajetreo y el bullicio: Tokio es una de las ciudades más pobladas del mundo, con más de 13 millones de personas viviendo solo en la ciudad y más de 37 millones en el área metropolitana de Tokio. Esta emocionante ciudad es tan ecléctica como el mismo Japón y verá edificios conmovedores que albergan gigantes tecnológicos del país junto a edificios tradicionales y antiguas calles estrechas.</p>
+       <p class="mt-3 text-lsate-700 text-justify">Si eres amante de la tecnología, de seguro que Japón será una de las ciudades que te gustaría conocer, y es que, si alguna ciudad del planeta se parece a las representaciones ficticias del futuro del siglo pasado, esa es Tokio.</p>
       </div>
     </div>
   
