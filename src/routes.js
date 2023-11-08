@@ -30,6 +30,7 @@ import OpinionesDetail from './views/OpinionsDetail.vue'
 
 
 
+
 // Monta la aplicación con el enrutador
 
 // const app = createApp(App)
