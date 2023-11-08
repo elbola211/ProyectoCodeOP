@@ -10,8 +10,7 @@
         <img :src="destination.image" alt="Imagen de {{ destination.name }}" />
       </template>
       <template v-else>
-        <p>Ningún destino para mostrar.
-        </p>
+        <p>Ningún destino para mostrar.</p>
       </template>
     </div>
     <Footer />
@@ -19,10 +18,8 @@
 </template>
 
 <script>
-import destinationsData from "../../server/destinations.json";
 import Navbar from "../components/Navbar.vue";
 import Footer from "../components/Footer.vue";
-import axios from 'axios';
 
 export default {
   name: 'DestinationDetails',
@@ -35,19 +32,27 @@ export default {
     return {
       destination: null,
     };
-    console.log('Datos en destinationsData:', destinationsData);
   },
   mounted() {
     this.loadDestinationDetails(this.id);
   },
   methods: {
     loadDestinationDetails(id) {
-    console.log('ID recibido:', id); // Verificar el ID
-      this.destination = destinationsData.find((destino) => destino.id === parseInt(id));
-        console.log('Datos del destino:', this.destination);
+      this.loading = true;
+      fetch("../server/destinations.json") // Asegúrate de que la ruta sea correcta
+        .then(response => response.json())
+        .then(data => {
+          this.loading = false;
+          this.destination = data.find(destino => destino.id === parseInt(id));
+          console.log('Datos del destino:', this.destination);
+        })
+        .catch(error => {
+          this.loading = false;
+          console.error('Error loading data:', error);
+          this.error = true;
+        });
+    },
   },
-},
 };
-
 </script>
 <style></style>
