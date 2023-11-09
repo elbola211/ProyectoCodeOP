@@ -6,7 +6,7 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">
           <div v-for="destination in data" :key="destination.id">
             <div class="p-4">
-              <router-link :to="{ name: 'destinations', params: { id: destination.id } }">
+              <router-link :to="{ name: 'destinationDetails', params: { id: destination.id } }">
                 <img :src="destination.image" alt="Imagen de {{ destination.name }}" class="w-full mb-2" />
                 <p class="text-gray-400 text-xl font-light">{{ destination.name }}</p>
               </router-link>
