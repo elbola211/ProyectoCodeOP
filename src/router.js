@@ -5,7 +5,6 @@ import OpinionesDetail from './views/OpinionsDetail.vue'
 import Destinations from './views/Destinations.vue'
 import DestinationDetails from './views/DestinationDetails.vue'
 
-
   export const routes= [
     { path: '/', name: 'home', component: Home }, 
     { path: '/contacto', name: 'contacto', component: Contacto },
