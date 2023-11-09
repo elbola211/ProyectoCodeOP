@@ -22,6 +22,10 @@
 
         <li class="p-4">
           <h1 class="text-center text-xs font-semibold"></h1>
+          <router-link to="/destinos"> Destinos </router-link>
+        </li>
+        <li class="p-4">
+          <h1 class="text-center text-xs font-semibold"></h1>
           <router-link to="/contacto"> Contacto </router-link>
         </li>
       </ul>
