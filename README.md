@@ -1,4 +1,4 @@
-![Image text](./src/assets/readme/Logo.jpeg)
+![Image text](./src/assets/logo/logo_img_text.jpeg)
 
 :camping: Nomatech es una web dirigida a nómadas digitales, es decir, personas que trabajan de forma remota y se pueden permitir poder llevar una “vida nómada”, es decir, poder vivir viajando.
 
