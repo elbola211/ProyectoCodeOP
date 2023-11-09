@@ -1,5 +1,5 @@
 <template>
-  <div class="px-4 py-4 w-3/4 align-center" v-if="destination">
+  <div class="px-4 py-4 w-3/4 align-center text-justify" v-if="destination">
   <div class="py-10">
     <p class="text-gray-600 text-xl">{{ destination.name }}</p>
     <img :src="destination.image" alt="Imagen de {{ destination.name }}" class="mb-2 py-4" />  
@@ -57,7 +57,7 @@ export default {
     },
     async loadWeatherData(city) {
       try {
-        const apiKey = 'api_key'; 
+        const apiKey = 'API_KEY'; 
         const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`);
         this.weather = response.data;
       } catch (error) {
