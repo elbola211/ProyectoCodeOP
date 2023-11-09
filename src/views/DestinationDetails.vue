@@ -1,4 +1,5 @@
 <template>
+    <div class="destinationDetails">
   <div class="px-4 py-4 w-3/4 align-center text-justify" v-if="destination">
   <div class="py-10">
     <p class="text-gray-600 text-xl">{{ destination.name }}</p>
@@ -19,6 +20,7 @@
     <p v-if="loading">Cargando...</p>
     <p v-if="error">Hubo un error al cargar los datos.</p>
   </div>
+</div>
 </template>
 
 <script>

@@ -1,10 +1,13 @@
 <template>
-    <footer class="m-4 rounded-lg shadow w-screen border-solid border-2 border-indigo-600">
+    <footer class="shadow w-screen  bg-slate-100 dark:text-gray-400">
         <!-- <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between"> -->
-        <div class="p-4 md:flex md:items-center md:justify-between">
-            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400"> <img src=../assets/IconosRRSS/nomade-digital2.jpg />
+        <div class=" md:flex md:items-center md:justify-between">
+
+            <span class="flex w-80"> <img alt="LOGO" src=../assets/logo/nomatech_text.jpg />
             </span>
-            <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0 margin: 10px 10px">
+
+
+            <ul class="flex items-center mr-10">
                 <li class="p-4">
                     <a href="#"><img src=../assets/IconosRRSS/FB.jpg /></a>
                 </li>
@@ -24,8 +27,6 @@
 
 <script>
 export default {
-  name: "Footer",  
+    name: "Footer",
 };
 </script>
-
-<style></style>
